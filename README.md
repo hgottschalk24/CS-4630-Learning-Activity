@@ -1,23 +1,23 @@
 # CS-4630-Learning-Activity Q3
 ## Dimensionality Reduction by PCA
 
-**Overview**
+###Overview
 This project applies Principal Component Analysis (PCA) to the Iris dataset to reduce its dimensionality while preserving as much variance as possible.
 The original four-feature dataset is transformed into two principal components and visualized to examine how well PCA separates the different iris species.
 
-**Dataset**
-Name: Iris Dataset
-Source: sklearn.datasets.load_iris
-Description: The dataset consists of 150 samples of iris flowers with four features-
-            -Sepal length
-            -Sepal width
-            -Petal length
-            -Petal width
+###Dataset
+**Name:** Iris Dataset
+**Source:** sklearn.datasets.load_iris
+**Description:** The dataset consists of 150 samples of iris flowers with four features-
+            - Sepal length
+            - Sepal width
+            - Petal length
+            - Petal width
 
             Each sample belongs to one of three species-
-            -Setosa
-            -Versicolor
-            -Virginica
+            - Setosa
+            - Versicolor
+            - Virginica
 No external data files are required, as the dataset can be loaded directly from scikit-learn.  
 
 **How to Run**
